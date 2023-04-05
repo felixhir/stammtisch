@@ -1,0 +1,10 @@
+
+<ul>
+    <li *ngFor="let card of stack">
+        <div>
+            <p class="top-value">{{cardService.mapToSymbol(card.value)}}</p>
+            <img src={{cardService.mapToImage(card.color)}} class="symbol" width="30">
+            <p class="bottom-value">{{cardService.mapToSymbol(card.value)}}</p>
+        </div>
+    </li>
+</ul>
