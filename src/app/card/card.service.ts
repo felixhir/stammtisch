@@ -12,13 +12,13 @@ export class CardService {
   public mapToImage(color: Color): string {
     switch(color) {
       case Color.Acorns:
-        return '../../assets/symbols/acorn.png';
+        return 'assets/symbols/acorn.png';
       case Color.Bells:
-        return '../../assets/symbols/bell.png';
+        return 'assets/symbols/bell.png';
       case Color.Hearts:
-        return '../../assets/symbols/heart.png';
+        return 'assets/symbols/heart.png';
       case Color.Leaves:
-        return '../../assets/symbols/leaf.png';
+        return 'assets/symbols/leaf.png';
       default:
         return '';
     }
